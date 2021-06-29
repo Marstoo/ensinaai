@@ -1,99 +1,110 @@
 body{
-    background-image: url(../imagens/fundo.jpg);
-    background-size:cover;
-}
-header{
-    text-align: center;
-    width: 100%;
-    height: 75px;
-    background-image: url(../imagens/cabecalho.jpg);   
-    padding-top: 10px;
-    font-weight: bold;
-    color:  rgb(124, 23, 124);
-    font-size: 50px;
-text-align: center;
-}
-nav{
-    width: auto;
-    height: 30px;
-    border: solid 1px black;
-    background-color: rgb(158, 128, 184);
-    text-align: center;
-    padding-top: 15px;
-}
-main{
-    background-image: url(../imagens/fundoimagem.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    width: auto;
-    height: 1140px;
-    border: dashed 1px black;
-    padding: 0px;
-    background-color: rgb(124, 23, 124);
-}
-footer{
-    width: auto;
-    height: 30px;
-    clear: both;
-    background-color:rgb(124, 23, 124);
-    text-align: center;
-}
-.caixa{
-    background-image: url(../imagens/galaxia.jpg);
-    background-size: cover;
-    background-repeat:no-repeat ;
-    width: auto;
-    height: 5%;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px rgb(196, 188, 188);
-    margin: 5px;
-    text-align: center;
-    color:rgb(219, 146, 219) ;
-
-}
-.imagens{
-    width: auto;
-    height: 50%;
-    padding: 0px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px black;
-    margin: 5px;
-}
-
-.fonte{
-    font-size: 15px;
-    color:white
-}
-.fonte2{
-    padding-left: 525px;
-    font-size:20px ;
-    color:white
+    background-image:linear-gradient(to bottom, rgb(169, 4, 175),rgb( 2, 1, 17));    
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    }
+    header{
+        background-image: url(../imagens/cabecalho.jpg);
+        background-size: contain;
+        background-repeat: repeat;
+        text-align: center;
+        font-size: 50px;
+        width: auto;
+        height: 100px;
+        border: solid 2px black  
+          
+    }
+    nav{
+       background-color:rgb(200, 54, 219) ;
+        width: auto;
+        height: 40px;
+        border: dotted 1px black;
+        text-align: center;
+        padding-top: 10px;
+        
     
-}
-.fonte3{
-padding: 50%;
-}
-
-.cadastro{
-height: 40px;
-width: 200px;
-color: rgb(66, 83, 136);
+    }
     
-}
-.cadastro1{
-    height: 40px;
-    width: 200px;
-    color: rgb(253, 253, 253);
+    main{
+        background-image: url(../imagens/fundoimagem.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: auto;
+        padding: 30px;
+    }
+    footer{
+        width: auto;
+        height: 30px;
+        background-color: rgb(77, 21, 180);
+        text-align: center;
+    }
+    article{
+        background-image: url(../imagens/cabecalho.jpg);
+        background-size: contain;
+        width: 20%;
+        height: 610px;
+        display:inline-table;
+        padding: 5px;
+        box-shadow: 5px 5px 10px rgb(145, 2, 26);
+        box-sizing: border-box;
+    }
+    article header{
+        width: auto;
+        height: 150px;
+        border-radius: 10px;
         
     }
-    .espaço{
-        padding-bottom: 500px;
+    .palavras{
+        border: dotted 1px black;
+        margin: 12px;
+        text-align: justify;
+        border: solid 2px black;
+        border-radius: 10px;
+        color: aqua;
     }
-.fundo{
-    background-image: url(../imagens/fundoimagem.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+    .titulos{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .texto{
+        text-align: justify;
+    }
+    .topo{
+        color: rgb(35, 9, 184) ;
+    }
+    .titulo{
+        color: rgb(244, 164, 137);
+        font-size: 60px;
+    }
+
+    .ana{
+        background-image: url(../imagens/orianna.jpg);
+        background-size: cover;
+    }
+    .zix{
+        background-image: url(../imagens/khazix.jpg);
+        background-size: cover;
+    }
+    .van{
+        background-image: url(../imagens/jarvan.jpg);
+        background-size: cover;
+    }
+    .cho{
+        background-image: url(../imagens/chogath.jpg);
+        background-size: cover;
+    }
+    .top{
+        background-image: url(../imagens/galaxia.jpg);
+        background-size: cover;
+        box-shadow: 5px 5px 10px rgb(145, 2, 26);
+        box-sizing: border-box;
+        border-radius: 10px;
+        
+    }
+
+    .cadastro1{
+        color:thistle;
+    }
