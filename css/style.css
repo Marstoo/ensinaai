@@ -1,12 +1,12 @@
 body{
-    background-image: url(imagens/fundo.jpg);
+    background-image: url(../imagens/fundo.jpg);
     background-size:cover;
 }
 header{
     text-align: center;
     width: 100%;
     height: 75px;
-    background-image: url(imagens/cabecalho.jpg);   
+    background-image: url(../imagens/cabecalho.jpg);   
     padding-top: 10px;
     font-weight: bold;
     color:  rgb(124, 23, 124);
@@ -22,7 +22,7 @@ nav{
     padding-top: 15px;
 }
 main{
-    background-image: url(imagens/fundoimagem.jpg);
+    background-image: url(../imagens/fundoimagem.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -40,7 +40,7 @@ footer{
     text-align: center;
 }
 .caixa{
-    background-image: url(imagens/galaxia.jpg);
+    background-image: url(../imagens/galaxia.jpg);
     background-size: cover;
     background-repeat:no-repeat ;
     width: auto;
@@ -51,10 +51,6 @@ footer{
     margin: 5px;
     text-align: center;
     color:rgb(219, 146, 219) ;
-
-}
-.contato{
-    background-image: url(/imagens/galaxiavermelha.jpg);
 
 }
 .imagens{
@@ -79,9 +75,7 @@ footer{
 .fonte3{
 padding: 50%;
 }
-.e{
-    float: left;
-}
+
 .cadastro{
 height: 40px;
 width: 200px;
@@ -98,7 +92,7 @@ color: rgb(66, 83, 136);
         padding-bottom: 500px;
     }
 .fundo{
-    background-image: url(/imagens/fundoimagem.jpg);
+    background-image: url(../imagens/fundoimagem.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
