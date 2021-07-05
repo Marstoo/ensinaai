@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
-    <head>
+<html lang="pt-br">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contato</title>
-    <link href="../css/style.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
-    <header class="topo">Estrelas Negras</header>
-    <nav><a href="eu.html">Sobre mim</a>
-        <a href="../index.html">Página inicial</a></nav>
-    <main>
-        <h1 class="titulo top">Formulário de Dúvidas</h1>
-    <form action=# method="GET">
-    <label class="cadastro1" for="id-nome">Nome completo</label>
-    <input  type="text" name="nome" id="id-nome"> <br>
-    <label class="cadastro1" for="id-email">Email</label>
-    <input type="email" name="email" id="id-email"> <br>
-    <label class="cadastro1" for="id-duvida">Insira sua dúvida</label>
-    <textarea name="duvida" id="duvida-id" cols="30" rows="10"></textarea> <br>
-    <input type="submit" value="cadastrar" class="cadastro">
-</form>
-</main>
-</body>
-<footer></footer>
-
-</html>
+<body style="background-image: url(../imagens/fundo.jpg);background-repeat: no-repeat;background-size: cover;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Sobre mim</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(incial)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="eu.html">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+              </li>
+        </div>   
+</nav>
+<form>
+    <div class="form-group" style="color: aliceblue; padding: 50px;">
+      <label for="exampleFormControlInput1">Endereço de email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+    </div>
+    <div class="form-group" style="color: aliceblue; padding: 50px;">
+        <label for="exampleFormControlInput1">Seu nome</label>
+        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+      </div>
+    <div class="form-group" style="color: aliceblue; padding: 50px;">
+      <label for="exampleFormControlTextarea1">Sua dúvida</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary" style="float: right;" >Enviar</button>
+  </form>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>     
+        </body>
+        
